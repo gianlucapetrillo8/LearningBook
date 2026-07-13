@@ -12,7 +12,7 @@
 <body>
 
     <!-- Header -->
-    <header class="header" id="siteHeader">
+    <header class="header">
         <div class="container header__inner">
             <span class="header__brand"><span class="header__brand-dot"></span>Weiterbildungen erfolgreich meistern</span>
             <a href="#waitlist" class="btn btn--primary">Jetzt schneller lernen</a>
@@ -21,9 +21,6 @@
 
     <!-- Hero -->
     <section class="hero">
-        <div class="hero__blob hero__blob--1"></div>
-        <div class="hero__blob hero__blob--2"></div>
-        <div class="hero__blob hero__blob--3"></div>
         <div class="container hero__inner">
             <div class="hero__content">
                 <span class="hero__badge">Erscheint 30.06.2026</span>
@@ -43,7 +40,52 @@
         </div>
     </section>
 
-    <!-- Benefits -->
+
+    <!-- Chapters -->
+    <section class="chapters">
+        <div class="container">
+            <h2 class="section-title">Was dich erwartet</h2>
+            <div class="chapters__bubbles">
+                <button type="button" class="chapter-bubble is-active" data-chapter="1">
+                    <span class="chapter-bubble__number">01</span>
+                    <span class="chapter-bubble__label">Das Maximum aus dem Schulrahmen holen</span>
+                </button>
+                <button type="button" class="chapter-bubble" data-chapter="2">
+                    <span class="chapter-bubble__number">02</span>
+                    <span class="chapter-bubble__label">Den perfekten Lernrahmen schaffen</span>
+                </button>
+                <button type="button" class="chapter-bubble" data-chapter="3">
+                    <span class="chapter-bubble__number">03</span>
+                    <span class="chapter-bubble__label">Mit den richtigen Lernmethoden arbeiten</span>
+                </button>
+                <button type="button" class="chapter-bubble" data-chapter="4">
+                    <span class="chapter-bubble__number">04</span>
+                    <span class="chapter-bubble__label">Mit unverhofften Ereignissen umgehen</span>
+                </button>
+            </div>
+
+            <div class="chapters__panel">
+                <div class="chapter-panel is-active" data-chapter-panel="1">
+                    <h3>Das Maximum aus dem Schulrahmen holen</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+                <div class="chapter-panel" data-chapter-panel="2">
+                    <h3>Den perfekten Lernrahmen schaffen</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+                <div class="chapter-panel" data-chapter-panel="3">
+                    <h3>Mit den richtigen Lernmethoden arbeiten</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="chapter-panel" data-chapter-panel="4">
+                    <h3>Mit unverhofften Ereignissen umgehen</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Benefits -->
     <section class="benefits">
         <div class="container">
             <h2 class="section-title">Vorteile des Buchs</h2>
@@ -80,58 +122,28 @@
         </div>
     </section>
 
-    <!-- Chapters -->
-    <section class="chapters">
-        <div class="container">
-            <h2 class="section-title">Was dich erwartet</h2>
-            <div class="chapters__track" id="chaptersTrack">
-                <div class="chapter-card chapter-card--active">
-                    <span class="chapter-card__number">01</span>
-                    <h3>Das Maximum aus dem Schulrahmen holen</h3>
-                    <p>Du lernst, wie du den Unterricht selbst als Lernwerkzeug nutzt bevor du überhaupt nach Hause gehst.</p>
-                </div>
-                <div class="chapter-card">
-                    <span class="chapter-card__number">02</span>
-                    <h3>Den perfekten Lernrahmen schaffen</h3>
-                    <p>Du findest heraus, wie du am besten lernst und baust dir einen Lernrahmen, der auf dich zugeschnitten ist.</p>
-                </div>
-                <div class="chapter-card">
-                    <span class="chapter-card__number">03</span>
-                    <h3>Mit den richtigen Lernmethoden arbeiten</h3>
-                    <p>Du lernst Pomodoro, Feynman und Pareto kennen und weisst danach, welche Methode wann für dich funktioniert.</p>
-                </div>
-                <div class="chapter-card">
-                    <span class="chapter-card__number">04</span>
-                    <h3>Mit unverhofften Ereignissen umgehen</h3>
-                    <p>Du lernst, wie du mit Motivationstiefs und Prokrastination umgehst und trotzdem weiterkommst.</p>
-                </div>
-            </div>
-            <div class="chapters__progress" id="chaptersProgress"></div>
-        </div>
-    </section>
-
     <!-- Numbers -->
     <section class="numbers">
         <div class="container numbers__grid">
             <div class="number-item">
-                <span class="number-item__value"><span class="number-item__count" data-count="2">0</span>h</span>
+                <span class="number-item__value">2h</span>
                 <span class="number-item__label">Lesedauer</span>
             </div>
             <div class="number-item">
-                <span class="number-item__value"><span class="number-item__count" data-count="105">0</span></span>
+                <span class="number-item__value">105</span>
                 <span class="number-item__label">Seiten</span>
             </div>
             <div class="number-item">
-                <span class="number-item__value"><span class="number-item__count" data-count="4">0</span></span>
+                <span class="number-item__value">4</span>
                 <span class="number-item__label">Hauptkapitel</span>
             </div>
             <div class="number-item">
-                <span class="number-item__value"><span class="number-item__count" data-count="14">0</span></span>
+                <span class="number-item__value">14</span>
                 <span class="number-item__label">Unterkapitel</span>
             </div>
 
             <div class="number-item">
-                <span class="number-item__value"><span class="number-item__count" data-count="10">0</span><span class="number-item__suffix">+</span></span>
+                <span class="number-item__value">10<span class="number-item__suffix">+</span></span>
                 <span class="number-item__label">Neue Lernmethoden</span>
             </div>
         </div>
@@ -189,7 +201,8 @@
         </div>
     </section>
 
-    <!-- Testimonials -->
+    <!-- Testimonials auskommentiert für den moment -->
+    <!--
     <section class="testimonials">
         <div class="container">
             <h2 class="section-title">Das sagen Leser</h2>
@@ -248,13 +261,14 @@
             </div>
         </div>
     </section>
+-->
 
     <!-- Waitlist -->
     <section class="waitlist" id="waitlist">
         <div class="container waitlist__inner">
             <h2>Lern früher smarter. Trag dich jetzt ein.</h2>
             <p>Trag dich in die Warteliste ein und erhalte eine Benachrichtigung, sobald das Buch verfügbar ist.</p>
-            <form class="waitlist__form" onsubmit="handleSubmit(event)">
+            <form class="waitlist__form">
                 <input type="email" placeholder="Deine E-Mail-Adresse" class="waitlist__input" required>
                 <button type="submit" class="btn btn--white">Jetzt vormerken</button>
             </form>
@@ -274,98 +288,15 @@
     </footer>
 
     <script>
-
-        // Waitlist form
-        function handleSubmit(e) {
-            e.preventDefault();
-            const input = e.target.querySelector('input');
-            const btn = e.target.querySelector('button');
-            btn.textContent = 'Danke! Wir melden uns.';
-            btn.disabled = true;
-            input.disabled = true;
-        }
-
-        // Header shadow on scroll
-        const header = document.getElementById('siteHeader');
-        const onScroll = () => header.classList.toggle('header--scrolled', window.scrollY > 8);
-        onScroll();
-        window.addEventListener('scroll', onScroll, { passive: true });
-
-        // Scroll-reveal animations
-        const revealTargets = document.querySelectorAll(
-            '.benefit-card, .chapter-card, .testimonial-card, .section-title, .author__inner, .waitlist__inner'
-        );
-        revealTargets.forEach((el, i) => {
-            el.classList.add('reveal');
-            el.style.transitionDelay = `${(i % 4) * 70}ms`;
-        });
-        const revealObserver = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('is-visible');
-                    revealObserver.unobserve(entry.target);
-                }
+        const chapterBubbles = document.querySelectorAll('.chapter-bubble');
+        const chapterPanels = document.querySelectorAll('.chapter-panel');
+        chapterBubbles.forEach((bubble) => {
+            bubble.addEventListener('click', () => {
+                const target = bubble.dataset.chapter;
+                chapterBubbles.forEach((b) => b.classList.toggle('is-active', b === bubble));
+                chapterPanels.forEach((p) => p.classList.toggle('is-active', p.dataset.chapterPanel === target));
             });
-        }, { threshold: 0.15 });
-        revealTargets.forEach((el) => revealObserver.observe(el));
-
-        // Chapters: interactive carousel
-        const chapterCards = Array.from(document.querySelectorAll('.chapter-card'));
-        const progressWrap = document.getElementById('chaptersProgress');
-        let activeChapter = 0;
-        let chapterTimer;
-
-        chapterCards.forEach((_, i) => {
-            const dot = document.createElement('span');
-            if (i === 0) dot.classList.add('active');
-            dot.addEventListener('click', () => setActiveChapter(i, true));
-            progressWrap.appendChild(dot);
         });
-        const progressDots = Array.from(progressWrap.children);
-
-        function setActiveChapter(index, userTriggered) {
-            chapterCards[activeChapter].classList.remove('chapter-card--active');
-            progressDots[activeChapter].classList.remove('active');
-            activeChapter = index;
-            chapterCards[activeChapter].classList.add('chapter-card--active');
-            progressDots[activeChapter].classList.add('active');
-            if (userTriggered) restartAutoRotate();
-        }
-
-        chapterCards.forEach((card, i) => {
-            card.addEventListener('click', () => setActiveChapter(i, true));
-        });
-
-        function restartAutoRotate() {
-            clearInterval(chapterTimer);
-            chapterTimer = setInterval(() => {
-                setActiveChapter((activeChapter + 1) % chapterCards.length, false);
-            }, 4500);
-        }
-        restartAutoRotate();
-        document.getElementById('chaptersTrack').addEventListener('mouseenter', () => clearInterval(chapterTimer));
-        document.getElementById('chaptersTrack').addEventListener('mouseleave', restartAutoRotate);
-
-        // Numbers: count-up animation
-        const counters = document.querySelectorAll('.number-item__count');
-        const counterObserver = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                if (!entry.isIntersecting) return;
-                const el = entry.target;
-                const target = parseInt(el.dataset.count, 10);
-                const duration = 1200;
-                const start = performance.now();
-                function tick(now) {
-                    const progress = Math.min((now - start) / duration, 1);
-                    const eased = 1 - Math.pow(1 - progress, 3);
-                    el.textContent = Math.round(eased * target);
-                    if (progress < 1) requestAnimationFrame(tick);
-                }
-                requestAnimationFrame(tick);
-                counterObserver.unobserve(el);
-            });
-        }, { threshold: 0.4 });
-        counters.forEach((el) => counterObserver.observe(el));
     </script>
 </body>
 </html>
